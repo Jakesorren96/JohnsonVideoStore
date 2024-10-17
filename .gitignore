@@ -1,0 +1,5 @@
+#Code to Create Tables
+CREATE TABLE MovieCatalog
+(Movie_Id CHAR(8) PRIMARY KEY,
+Title VARCHAR(150) CONSTRAINT TitleRequired NOT NULL
+Genre VARCHAR(150) CONSTR
